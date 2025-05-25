@@ -35,16 +35,13 @@
 body {
         background-color: rgb(147, 132, 255);
     }
-.im {
-  width: 370px; 
-  height: 200px; 
-  border-radius: 20%; 
-  overflow: hidden;
-  justify-content: center; 
-  align-items: center; 
-  padding: 10px;
-  margin-left: auto;
-  margin-right: auto;
+.im img {
+max-width: 100%;
+height: auto;
+display: block;
+margin: 0 auto;
+border-radius: 20px;
+object-fit: cover
 }
 .lesson {
     background-color: orange;
@@ -80,18 +77,11 @@ main {
         border-bottom-width: 13px;
         background-color: aliceblue;
 }
-.two {
-width: 32px;
-height: 32px; 
-border-radius: 20%; 
-display: flex; 
-overflow: hidden;
-text-align: left;
-margin-top: 50px;
-margin-bottom: 8px;
-position: relative;
-justify-content: left;
-display: flex;
+.two img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 .te {
     font-size: 18px;
@@ -100,7 +90,7 @@ display: flex;
     margin-top: -45px;
     text-align: center;
     margin-bottom: 8px;
-    margin-right: 200px;
+    margin-right: auto;
 }
 </style>
 </html>
